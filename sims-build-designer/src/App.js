@@ -1,7 +1,7 @@
 import './App.css';
 import ButtonDisplay from './buttonDisplay';
 import logo from './simLogo.png';
-import { simType, typeOfBuild, colourScheme, buildingStyle, walls, concept, exteriorFeature, bonusSpace } from './options';
+import { simType, simNumber, typeOfBuild, colourScheme, buildingStyle, walls, concept, exteriorFeature, bonusSpace } from './options';
 
 function App() {
   return (
@@ -19,6 +19,12 @@ function App() {
             name = {simType}
             list = {simType}/>
           </div>
+          <div className="typeSection">
+            <ButtonDisplay
+            name = {simNumber}
+            list = {simNumber}/>
+          </div>
+          <p className="note">^ Only applicable to 'Family' & 'Roommates'</p>
 
         <h2>Lot:</h2>
           <div className="typeSection">

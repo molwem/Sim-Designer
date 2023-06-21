@@ -38,6 +38,16 @@ h2 {
   margin-top: 50px;
 }
 
+.note {
+  text-align: center;
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 .typeSection {
   display: flex;
   align-items: center;

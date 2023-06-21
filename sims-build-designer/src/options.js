@@ -1,4 +1,5 @@
 export const simType = ['Single sim', 'Couple', 'Family', 'Roommates' ]
+export const simNumber = ['3', '4', '5', '6', '7', '8' ]
 export const colourScheme = ['Boring beige', 'Neon', 'Earth tones', 'Beachy', 'Pastel', 'Jewel tones', 'Monochromatic', 'Neutral with a colour pop', 'Bold', 'High contrast']
 export const typeOfBuild = ['Tiny home', 'Small home', 'Regular home', 'Large home', 'Mansion']
 export const exteriorFeature = ['Pond', 'Garden', 'Pool', 'Patio', 'Porch', 'Driveway', 'Hot tub', 'Livestock', 'Shed', 'Garage', 'Water feature', 'Chimney', 'Picnic area', 'Craft area', 'BBQ area', 'Greenhouse', 'Play area']
