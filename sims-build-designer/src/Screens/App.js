@@ -1,11 +1,13 @@
 import './App.css';
-import ButtonDisplay from './buttonDisplay';
-import logo from './simLogo.png';
+import ButtonDisplay from '../Components/buttonDisplay';
+import logo from '../simLogo.png';
+import NavBar from '../Components/navbar';
 import { simType, simNumber, typeOfBuild, colourScheme, buildingStyle, walls, concept, exteriorFeature, bonusSpace } from './options';
 
 function App() {
   return (
     <>
+      <NavBar />
       <div className="App-body">
         <img src={logo} className="Logo" alt="sims logo" />
         <header className="Header">
